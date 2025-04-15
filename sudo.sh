@@ -56,7 +56,7 @@ iptables -A FORWARD -i enp0s8 -p tcp --dport 22 -d 192.168.23.25 -j ACCEPT
 # ------------------------------------------
 # 7. Denegar todo lo demás desde extranet
 # ------------------------------------------
-#iptables -A FORWARD -i enp0s8 -j DROP
+iptables -A FORWARD -i enp0s8 -j DROP
 
 # ------------------------------------------
 # 8. Pings: permitir desde intranet, denegar desde Host
