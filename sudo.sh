@@ -2,13 +2,13 @@
 
 # Interfaces
 IF_NAT="enp0s3"
-IF_INTRA1="enp0s8"     # Red interna 2
+IF_INTRA1="enp0s10"     # Red interna 2
 IF_INTRA2="enp0s9"     # Red interna 3
-IF_HOSTONLY="enp0s10"  # Pública hacia el Host
+IF_HOSTONLY="enp0s8"  # Pública hacia el Host
 
 # IPs destino
-IP_WEB=192.168.11.2
-IP_SSH=192.168.13.5
+IP_WEB=192.168.21.22
+IP_SSH=192.168.23.25
 
 # Limpiar reglas anteriores
 iptables -F
