@@ -2,8 +2,8 @@
 
 # Interfaces
 IF_NAT="enp0s3"
-IF_INTRA1="enp0s10"     # Red interna 2
-IF_INTRA2="enp0s9"     # Red interna 3
+IF_INTRA1="enp0s9"     # Red interna 2
+IF_INTRA2="enp0s10"     # Red interna 3
 IF_HOSTONLY="enp0s8"  # Pública hacia el Host
 
 # IPs destino
